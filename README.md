@@ -19,7 +19,7 @@ const CompanyAddress = require('./CompanyAddress');
 const Crew = require('./Crew');
 
 bookshelf.plugin('registry');
-bookshelf.plugin(require('../config/custom-soft-cascade-delete'));
+bookshelf.plugin(require('bookshelf-cascade-soft-delete'));
 
 module.exports = bookshelf.model('Company', {
     tableName: 'companies',
