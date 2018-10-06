@@ -8,7 +8,7 @@ Intall the package via npm:
 $ npm install --save bookshelf-cascade-soft-delete
 ```
 
-#Usage
+# Usage
 To be honest, nothing changes from the documentation of [node-bookshelf-soft-delete](https://github.com/lanetix/node-bookshelf-soft-delete) and [bookshelf-cascade-delete](https://github.com/seegno/bookshelf-cascade-delete). You just need the combined functionality. 
 
 ## Examples
